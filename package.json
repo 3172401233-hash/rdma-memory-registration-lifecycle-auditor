@@ -1,0 +1,13 @@
+{
+  "name": "rdma-memory-registration-lifecycle-auditor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "纯内存模拟的 RDMA Memory Region / lkey / QP 生命周期审计器（不访问真实 RDMA 设备）",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
